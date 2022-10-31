@@ -1,0 +1,68 @@
+#container {
+    display: flex;
+}
+
+
+.gothic-text {
+    font-family: 'Carrois Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.second-text {
+    font-family: 'Carrois Gothic', sans-serif;
+}
+
+.bg-hero {
+    background-image: url('https://images.unsplash.com/photo-1503416997304-7f8bf166c121?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    min-height: 45vh;
+    background-position: center;
+}
+
+.form-control-sm {
+    max-width: 75%;
+}
+
+.bg-purple {
+    background-color: rgb(129, 19, 188);
+}
+
+.bg-mid {
+    background-color: rgb(189, 126, 248);
+}
+
+.text-med {
+    color: gray;
+}
+
+.text-light {
+    color: F4EDD8;
+}
+
+.move-down {
+    transform: translateY(12vh);
+}
+
+
+
+.justify-end {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+}
+
+.text-shadow {
+    text-shadow: 3px 2px black;
+}
+
+@media (max-width: 778px) {
+    .no-text-over-mobile {
+        display: none;
+    }
+}
+
+@media (min-width:778px) {
+    .move-down-media {
+        transform: translateY(15vh);
+    }
+
+}
